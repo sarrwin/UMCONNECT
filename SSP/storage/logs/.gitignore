@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Do not ignore .gitignore
+!.gitignore
+
+# Do not ignore .env (if needed temporarily)
+!.env
+
+# Do not ignore a specific directory
+!config/
+!app/
+
+backup-repo/
+project-backup.zip
