@@ -5,7 +5,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: laravel-app
+    image: umconnect-sarrwin  # Specify custom image name and tag
+    container_name: umconnect_sarrwin
+
     ports:
       - "8000:8000"
     volumes:

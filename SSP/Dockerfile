@@ -1,3 +1,5 @@
+#Link to Github Repository of My FYP: https://github.com/sarrwin/UMCONNECT 
+
 # Use the official PHP image as a base image
 FROM php:8.2.12-fpm
 
@@ -38,8 +40,6 @@ RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cac
 
 # Expose the port Laravel uses
 EXPOSE 8000
-
-# Skip database-dependent commands during the build process
 
 # Run Laravel's server
 CMD ["php", "-S", "0.0.0.0:8000", "-t", "public"]
