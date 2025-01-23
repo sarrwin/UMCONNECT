@@ -1,4 +1,4 @@
-This repository contains the **AUMConnect: Final Year Project Supervision System**, a web application developed to streamline the supervision process for final-year projects. The system integrates features such as appointment scheduling, progress tracking, logbook management, and communication tools to enhance collaboration between students, supervisors, and coordinators.
+This repository contains the **UMConnect: Final Year Project Supervision System**, a web application developed to streamline the supervision process for final-year projects. The system integrates features such as appointment scheduling, progress tracking, logbook management, and communication tools to enhance collaboration between students, supervisors, and coordinators.
 
 ---
 
